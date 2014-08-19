@@ -1,0 +1,43 @@
+{
+  "name": "dotted",
+  "version": "0.0.0",
+  "main": "lib/dotted.js",
+  "description": "Make current file/dir to dotted symbol, Copy them to home path.",
+  "homepage": "https://github.com/ragingwind/dotted",
+  "bugs": "https://github.com/ragingwind/dotted/issues",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ragingwind/dotted"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "dotted",
+    ""
+  ],
+  "dependencies": {
+      "nopt": "~2.1.1",
+      "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "dotted": "cli.js"
+  },
+  "preferGlobal": "true"
+}
